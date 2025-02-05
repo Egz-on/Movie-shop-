@@ -11,6 +11,8 @@ import Nav from './components/Nav';
 
 function App() {
   return (
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-200">
+
     <BrowserRouter>
     
 <Nav />
@@ -27,7 +29,7 @@ function App() {
 </Routes>
 
 </BrowserRouter> 
-
+</div>
   );
 }
 

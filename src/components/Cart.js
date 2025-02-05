@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
     function Cart({id , title ,backdrop_path ,release_date  }) {
+        const image = backdrop_path !== null ? `http://image.tmdb.org/t/p/w500${backdrop_path}` : "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_w.jpeg"
     return (
+        
         
         <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700'>
         <div className='h-52 overflow-y-hidden'>
-            <img src={`http://image.tmdb.org/t/p/w500${backdrop_path}`} className='rounded-t-lg'/>
+            <img src={image} className='rounded-t-lg'/>
         </div>
         <div className='p-5'>
             <h3 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>{title}</h3>

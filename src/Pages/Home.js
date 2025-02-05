@@ -24,10 +24,10 @@ import Cart from '../components/Cart';
         slidesPerView={1}
         
     >
-        <SwiperSlide><img className='h-[89.5vh]  w-full' src='https://images.pexels.com/photos/640781/pexels-photo-640781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/></SwiperSlide>
-        <SwiperSlide><img className='h-[89.5vh]  w-full' src='https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/></SwiperSlide>
-        <SwiperSlide><img className='h-[89.5vh] w-full' src='https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/></SwiperSlide>
-        <SwiperSlide><img className='h-[89.5vh] w-full ' src='https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/></SwiperSlide>
+        <SwiperSlide><img className='h-[94vh]  w-full' src='https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/07/Dark.jpg'/></SwiperSlide>
+        <SwiperSlide><img className='h-[94vh]  w-full' src='https://wallpapers.com/images/high/sherlock-thoughts-word-art-tl4cnhze25t9pbwd.webp'/></SwiperSlide>
+        <SwiperSlide><img className='h-[94vh] w-full' src='https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/avengers-chromebook-wallpaper.jpg'/></SwiperSlide>
+        <SwiperSlide><img className='h-[94vh] w-full ' src='https://c4.wallpaperflare.com/wallpaper/576/838/565/spiderman-4k-artwork-hd-wallpaper-preview.jpg'/></SwiperSlide>
         
     </Swiper>
 
